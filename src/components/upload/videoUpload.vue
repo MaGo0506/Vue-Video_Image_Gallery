@@ -69,7 +69,7 @@
 
 <script>
 import firebase from 'firebase';
-import db from '../fireBase';
+import db from '../../fireBase';
 
 export default {
 	name: 'Upload',
@@ -126,6 +126,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 #video-upload {
 	text-align: center;
 

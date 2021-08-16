@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import loader from '../assets/loader.gif';
+import loader from '../../assets/loader.gif';
 
 export default {
 	name: 'Loader',

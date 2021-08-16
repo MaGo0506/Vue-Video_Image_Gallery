@@ -1,0 +1,115 @@
+.btnHolder {
+  display: flex;
+  justify-content: space-evenly;
+
+button {
+  padding: 5px 20px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.editBtn {
+  background: rgb(205, 226, 11);
+
+  &:hover {
+    background: rgb(238, 180, 20);
+  }
+}
+
+.deleteBtn {
+  background: rgb(224, 43, 37);
+
+  &:hover {
+    background: rgb(155, 12, 7);
+  }
+}
+}
+
+.modalWrapper {
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  background: cornflowerblue;
+  text-align: left;
+  padding: 30px;
+
+  &.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  input {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+
+  .saveBtn {
+    margin: 50px auto 10px auto;
+    width: 150px;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgb(0, 255, 115);
+    border-radius: 10px;
+    transition: 0.3s;
+
+    &:hover {
+      background: rgb(10, 158, 76);
+      }
+    }
+
+    .closeBtn {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      cursor: pointer;
+      font-size: larger;
+      color: firebrick;
+      border: 1px solid firebrick;
+      padding: 20px 25px;
+      border-radius: 50%;
+      transition: 0.3s;
+
+      &:hover {
+        background: firebrick;
+        color: white;
+      }
+    }
+  }
+
+.shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: none;
+  background: rgba(0,0,0,0.45);
+
+  &.true {
+      display: block;
+  }
+}

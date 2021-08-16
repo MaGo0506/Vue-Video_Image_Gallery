@@ -1,8 +1,8 @@
-import imageGallery from './components/imageGallery.vue';
-import videoGallery from './components/videoGallery.vue';
-import imageUpload from './components/imageUpload.vue';
-import videoUpload from './components/videoUpload.vue';
-import home from './components/image-video.vue';
+import imageGallery from './components/gallery/imageGallery.vue';
+import videoGallery from './components/gallery/videoGallery.vue';
+import imageUpload from './components/upload/imageUpload.vue';
+import videoUpload from './components/upload/videoUpload.vue';
+import home from './components/home/home.vue';
 
 export default [
 	{ path: '/', component: home },

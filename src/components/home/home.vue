@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import pictureImg from '../assets/picture.png';
-import videoImg from '../assets/video.png';
+import pictureImg from '../../assets/picture.png';
+import videoImg from '../../assets/video.png';
 
 export default {
 	data() {
