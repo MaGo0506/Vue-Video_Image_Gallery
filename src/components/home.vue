@@ -38,12 +38,6 @@ export default {
 			videoImg,
 		};
 	},
-	computed: {
-	},
-	mounted() {
-	},
-	methods: {
-	},
 };
 </script>
 
